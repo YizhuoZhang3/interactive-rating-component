@@ -13,7 +13,7 @@ h1 {
   font-weight: 400;
 }
 
-p {
+.description {
   font-size: 15px;
   color: hsl(217, 12%, 63%);
 }
@@ -24,7 +24,7 @@ li {
   padding: 10px;
   border-radius: 100%;
   width: 20px;
-  background-color: hsl(216, 12%, 44%);
+  background-color: hsl(213, 19%, 23%);
 }
 
 .container {
@@ -52,6 +52,14 @@ li {
 
 img {
   padding: 10px;
-  background-color: hsl(216, 12%, 44%);
+  background-color: hsl(213, 19%, 23%);
   border-radius: 100%;
+}
+
+.btn {
+  background-color: hsl(25, 97%, 53%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
 }
